@@ -1,6 +1,6 @@
 - `step/1`: Starting code for the Routing & Data Fetching section
-- `step/2`: Starting code for the Per-Request Caching lesson
+- `step/2`: Starting code for the Per-Request Caching
 - `step/3`: Starting code for the Active & Protected Routes section
 - `step/4`: Starting code for the Advanced Server Actions & Revalidation section
-- `step/5`: Starting code for the Events Page lesson
-- `step/6`: Final code from the course (similar to what is on the main branch)
+- `step/5`: Starting code for the Events Page
+- `step/6`: Final code
