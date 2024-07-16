@@ -8,7 +8,7 @@ export const getAttendeesCountForDashboard = async (userId: string) => {
   await delay()
   const counts = await db
     .select({
-      totalAttendees: sql`count(distinct ${attendees.id})`,
+      totalAttendees: sql<number>`count(distinct ${attendees.id})`,
     })
     .from(events)
     .leftJoin(rsvps, eq(rsvps.eventId, events.id))
