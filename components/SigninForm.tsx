@@ -2,7 +2,7 @@
 
 import { useFormState } from 'react-dom'
 import { Input, Button } from '@nextui-org/react'
-import { registerUser, signinUser } from '@/actions/auth'
+import { signinUser } from '@/actions/auth'
 import Link from 'next/link'
 import Submit from './SubmitButton'
 
@@ -10,7 +10,7 @@ const initState = { message: null }
 
 const SigninForm = () => {
   const [formState, action] = useFormState<{ message: string | null }>(
-    registerUser,
+    signinUser,
     initState
   )
 
